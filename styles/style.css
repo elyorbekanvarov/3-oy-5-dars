@@ -12,6 +12,7 @@ header {
     box-shadow: 0px 3px 5px 0px #091E4233;
     padding: 16px 130px 16px 130px;
     position: fixed;
+    z-index: 10;
 }
 .container {
     display: flex;
@@ -210,7 +211,6 @@ section .tooth-section {
 }
 .cart-wrapper .cart1 {
     display: flex;
-    background-image: url('Hightlight.png');
     position: absolute;
     border: 1px solid #3d9294;
     width: 583px;
@@ -261,10 +261,6 @@ section .tooth-section {
     left: 310px;
     top: 20px;
 }
-.cart2 img {
-    background-color: rgb(70, 149, 178);
-    border-radius: 15px;
-}
 .products {
     margin-top: 80px;
     margin-left: 148px;
@@ -279,10 +275,11 @@ section .tooth-section {
     border-radius: 16px;
 }
 .product-info p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     color: #121216;
+    width: 300px;
 }
 .product-info .paid {
     display: flex;
@@ -319,7 +316,7 @@ section .tooth-section {
     transform: scale(0.9);
 }
 .product-info button span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 24px;
     color: #FFFFFF;
@@ -329,4 +326,121 @@ section .tooth-section {
 .product-info button span:hover {
     color: #405741;
     transform: scale(1.1);
+}
+.cart2 {
+    display: flex;
+    background-color: rgb(37, 164, 224);
+    border-radius: 16px;
+    width: 583px;
+    height: 273px;
+    padding: 21px 18px 6px 18.5px;
+    position: relative;
+}
+.cart2 .cart-about h1 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    color: #121216;
+    width: 400px;
+}
+.cart2 .cart-about p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121216;
+}
+.cart2 .cart-about button {
+    border: none;
+    background-color: #405741;
+    border-radius: 8px;
+    padding: 10px 43px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 35px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.cart2 .cart-image {
+    position: absolute;
+    right: 35px;
+}
+.cart2 .cart-about button:hover {
+    background-color: #FFFFFF;
+    color: #405741;
+    transform: scale(1.1);
+}
+.about-section {
+    margin-top: 120px;
+    background-color: #E9F8EF;
+}
+.about__container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about-text h1 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    margin-left: 600px;
+    padding-top: 93.5px;
+}
+.about-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #172B4D;
+    margin-bottom: 80px;
+    margin-top: 4px;
+    margin-left: 35px;
+}
+.about-wrapper {
+    display: flex;
+    gap: 16px;
+    margin-left: 127.5px;
+}
+.about1 {
+    background-color: #FFFFFF;
+    padding: 24px 22.33px 24px 24px;
+    width: 384.44px;
+    border-radius: 8px;
+}
+.about1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121216;
+}
+.person {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+.person-img {
+    padding-right: 19px;
+}
+.person-name {
+    padding-right: 20px;
+}
+.person-name h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #121216;
+    width: 200px;
+}
+.person-name p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #A8A9B2; 
+}
+.bottom-img {
+    margin-top: 60px;
+    text-align: center;
+    cursor: pointer;
 }
