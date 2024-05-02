@@ -63,8 +63,10 @@ header {
     gap: 24px;
 }
 .links a {
-    display: flex;
     align-items: center;
+}
+.links a:nth-child(1) {
+    margin-right: 24px;
 }
 section {
     padding-top: 100px;
@@ -596,3 +598,4 @@ section .tooth-section {
     line-height: 21px;
     color: #091E42;
 }
+
